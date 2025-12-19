@@ -13,7 +13,7 @@ import copy
 import streamlit as st
 import numpy as np
 import pandas as pd
-import sentencepiece as spm
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -500,3 +500,4 @@ if user_input:
     
     # Rerun to display new message
     st.rerun()
+
